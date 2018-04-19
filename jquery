@@ -1,0 +1,10 @@
+jQuery('document').ready(function() {
+        jQuery('#close-button').click(function() {
+                jQuery('#modal').toggleClass('closed');
+                jQuery('#modal-overlay').toggleClass('closed');
+        });
+        jQuery('#open-button').click(function() {
+                jQuery('#modal').toggleClass('closed');
+                jQuery('#modal-overlay').toggleClass('closed');
+        });
+});
